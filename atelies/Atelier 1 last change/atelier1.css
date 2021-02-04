@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/bg-pattern-top-desktop.svg) ,url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+.text-top h1 {
+    font-size: 40px;
+    color: hsl(300, 43%, 22%);
+}
+
+.all {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.white{
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.customer {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:  #F7F2F8;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    align-items: center;
+
+}
+
+.rating-text {
+    font-size:small;
+}
+
+.rating {
+    width: 350px;
+}
+
+.star-img {
+    font-size: 1px;
+    margin-right: 10px;
+}
+
+.a1 {
+    margin-left: -80px;
+}
+
+.a2 {
+    margin-left: -40px;
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+.para {
+    margin-top: 10px;
+}
+
+.avatar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -40px;
+}
+
+.profil-img {
+    border-radius: 1000px;
+}
+
+.descreption {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.background {
+    width: 300px;
+    height: 180px;
+    background-color: #511F50 ;
+    padding: 20px 15px;
+    border-radius: 8px;
+}
+
+.background-2nd {
+    margin-top: 15px;
+}
+
+.background-3rd {
+    margin-top: 30px;
+}
+.imgg{
+    border-radius: 100px;
+}
+
+.nom{
+    color: #b36da3;
+}
+.name{
+    margin-left: -110px;
+}
+
+
+@media (max-width: 374px) {
+    .text-top {
+        text-align: center;
+    }
+
+    .rating {
+        margin-top: 20px;
+    }
+
+    .a1 {
+        margin: 0 auto;
+    }
+    .a2 {
+        margin: 0 auto;
+    }
+    .a3 {
+        margin: 0 auto;
+    }
+
+    .customer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .star-img {
+        margin-bottom: 5px;
+    }
+    .paraa{
+        text-align: center;
+    }
+    .all{
+        justify-content: center;
+    }
+
+
+}
+   
